@@ -4,16 +4,16 @@ using namespace std;
 int main()
 {
     set<int,less<int>> Set;
-    Set.insert(1);
-    Set.insert(10);
-    Set.insert(12);
-    Set.insert(10);
-    Set.insert(10);
-    Set.insert(17);
-    Set.insert(13);
-    Set.insert(8);
-    Set.insert(11);
-    Set.insert(7);
+   int x=1;
+   int j;
+   while(x)
+   {    cout<<"Enter a number :"<<"\n";
+       cin>>j;
+       Set.insert(j);
+        cout<<"\n"<<"Enter a choice :"<<"\n";
+        cin>>x;
+
+   }
     
     int i=0;
     set<int,greater<int>>:: iterator itr;  
